@@ -1,0 +1,56 @@
+@import url('reset.css');
+
+/* __________________________MAIN HEADER __________________________ */
+
+.header-list {
+    background: rgb(0,255,199);
+    background: linear-gradient(34deg, rgba(0,255,199,1) 0%, rgba(235,0,189,0.9794292717086834) 46%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.header-list li {
+    text-transform: uppercase;
+}
+
+.header-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 25px;
+    display: block;
+}
+
+.header-second-list {
+    position: absolute;
+    background: transparent;
+    padding-top: 5px;
+    display: none;
+    background: rgba(163, 170, 177, 0.534);
+}
+
+.header-list li:hover .header-second-list  {
+    display: block;
+}
+
+.header-third-list {
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    background: transparent;
+    padding-right: 8px;
+    display: none;
+}
+
+.header-third-list li {
+    background: rgba(163, 170, 177, 0.534);
+}
+
+.header-second-list li:hover .header-third-list {
+    display: block;
+}
+
+
+
+
