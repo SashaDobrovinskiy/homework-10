@@ -51,6 +51,34 @@
     display: block;
 }
 
+.main-page {
+    background-image: url('icons/home-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-color: transparent;
+    padding: 10px 20px 10px 50px;
+}
 
+.homeworks {
+    background-image: url('icons/chevron-down-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
 
+.homeworks:hover {
+    background-image: url('icons/chevron-up-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
 
+.gallery {
+    background-image: url('icons/image-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.flex {
+    background-image: url(icons/chevron-left-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
