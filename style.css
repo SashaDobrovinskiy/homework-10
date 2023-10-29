@@ -26,12 +26,14 @@
     position: absolute;
     background: transparent;
     padding-top: 5px;
-    display: none;
     background: rgba(163, 170, 177, 0.534);
+    transform: scaleY(0);    
+    transform-origin: top;
+     transition: transform 0.26s ease;
 }
 
 .header-list li:hover .header-second-list  {
-    display: block;
+    transform: scaleY(1);
 }
 
 .header-third-list {
@@ -40,7 +42,9 @@
     right: 100%;
     background: transparent;
     padding-right: 8px;
-    display: none;
+    transform: scaleX(0);    
+    transform-origin: top;
+    transition: transform 0.26s ease;
 }
 
 .header-third-list li {
@@ -48,7 +52,7 @@
 }
 
 .header-second-list li:hover .header-third-list {
-    display: block;
+    transform: scaleX(1);
 }
 
 .main-page {
